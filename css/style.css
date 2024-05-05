@@ -145,3 +145,36 @@ body {
     color: #4F5665;
     margin: 10px 0 0 0;
 }
+
+.provide-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.provide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 430px;
+}
+
+.provide-text h2 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 0;
+}
+
+.provide-text p {
+    line-height: 30px;
+}
+
+.list-1 {
+    list-style-image: url(/image/Group1120.png);
+    margin-bottom: 5px;
+}
+
+.list-1 li {
+    font-size: 14px;
+    line-height: 30px;
+}
