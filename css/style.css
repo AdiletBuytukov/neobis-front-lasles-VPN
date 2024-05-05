@@ -178,3 +178,108 @@ body {
     font-size: 14px;
     line-height: 30px;
 }
+
+
+.choose-text {
+    text-align: center;
+    margin: 65px 0;
+
+}
+
+.choose-text h3 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.choose-text p {
+    line-height: 30px;
+    color: #4F5665;
+    padding: 0 268px
+}
+
+.choose-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose-blocks h3 {
+    font-size: 18px;
+}
+
+.choose-link {
+    list-style-image: url(/image/Group1223.png);
+    text-align: left;
+}
+
+.choose-link li {
+    font-size: 14px;
+}
+
+.choose-blocks p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.choose-blocks button {
+    font-weight: 700;
+    color: #F53838;
+    border: 2px solid #F53838;
+    width: 177px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.choose-blocks button:hover {
+    background-color: #F53838;
+    color: white;
+
+}
+
+.choose-blocks span {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.choose-block-1,
+.choose-block-2,
+.choose-block-3 {
+    width: 240px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    text-align: center;
+    padding: 55px 55px 150px 55px;
+    line-height: 30px;
+    position: relative;
+}
+
+.choose-block-1:hover,
+.choose-block-2:hover,
+.choose-block-3:hover {
+    border: 2px solid #F53838;
+    box-shadow: 26px 32px 69px -12px #F53838;
+}
+
+.choose-link-block {
+    text-decoration: none;
+    color: #0B132A;
+}
+
+.choose-block-1 p,
+.choose-block-2 p,
+.choose-block-3 p {
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.choose-block-1 button,
+.choose-block-2 button,
+.choose-block-3 button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
